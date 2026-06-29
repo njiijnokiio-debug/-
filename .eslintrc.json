@@ -1,7 +1,8 @@
 module.exports = {
-  extends: ['next/core-web-vitals'],
+  extends: ['next/core-web-vitals', 'next/typescript'],
   rules: {
     'react-hooks/exhaustive-deps': 'warn',
     'react/display-name': 'warn',
+    '@next/next/no-img-element': 'warn',
   },
 };
